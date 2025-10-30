@@ -13,7 +13,6 @@ O objetivo principal é otimizar o agendamento de consultas, visando melhorar o 
 A iniciativa está alinhada diretamente ao **Objetivo de Desenvolvimento Sustentável (ODS) 3: Saúde e Bem-Estar** da ONU.
 
 ---
-
 ## ✨ Funcionalidades Essenciais
 
 O sistema implementa as seguintes operações (CRUD) e relatórios:
@@ -33,10 +32,17 @@ O sistema implementa as seguintes operações (CRUD) e relatórios:
     * [ ] Visualizar Consultas (Read)
     * [ ] Reagendar/Editar Consulta (Update)
     * [ ] Cancelar Consulta (Delete)
+* **Gestão de Exames:**
+    * [ ] Solicitar Exame (Create)
+    * [ ] Consultar Exames (Read)
+    * [ ] Registrar/Atualizar Resultado (Update)
+* **Gestão de Farmácia:**
+    * [ ] Consultar Estoque de Remédio (Read)
+    * [ ] Solicitar Remédio (Create)
+    * [ ] Registrar Retirada de Remédio (Update)
 * **Relatórios Essenciais:**
     * [ ] Gerar relatório de consultas por profissional.
     * [ ] Gerar relatório de consultas por data.
-
 ---
 
 ## 💻 Tecnologias Utilizadas
