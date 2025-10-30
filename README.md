@@ -43,7 +43,7 @@ O sistema implementa as seguintes operações (CRUD) e relatórios:
 
 * **Backend:** Python
 * **Framework Web:** Django
-* **Frontend (Base):** HTML / CSS / JavaScript
+* **Frontend (Base):** React com Typescript
 
 ---
 
