@@ -38,10 +38,12 @@ O sistema implementa as seguintes operações (CRUD) e relatórios:
     * [ ] Solicitar Exame (Create)
     * [ ] Consultar Exames (Read)
     * [ ] Registrar/Atualizar Resultado (Update)
+    * [ ] Cancelar Exame (Delete)
 * **Gestão de Farmácia:**
     * [ ] Consultar Estoque de Remédio (Read)
     * [ ] Solicitar Remédio (Create)
     * [ ] Registrar Retirada de Remédio (Update)
+    * [ ] Remédio em falta (Delete)
 * **Relatórios Essenciais:**
     * [ ] Gerar relatório de consultas por profissional.
     * [ ] Gerar relatório de consultas por data.
