@@ -99,11 +99,11 @@ Siga os passos abaixo para executar o projeto localmente.
 
 Este projeto está sendo desenvolvido pelos seguintes integrantes:
 
-* Alice Maria Sena Pereira
+* Alice Maria Sena Pereira (**Leader**)
 * Aquiles Pereira dos Santos
 * Eloi de Lima Sousa
 * Leticia Gomes da Silva
-* Lucas Filipe de Lima Segundo
+* Lucas Filipe de Lima Segundo 
 * Luan Ventura Ferreira de Moura (**Tech Leader**)
 
 ---
