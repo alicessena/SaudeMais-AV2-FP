@@ -61,7 +61,7 @@ Siga os passos abaixo para executar o projeto localmente.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO_AQUI]
+    git clone https://github.com/alicessena/SaudeMais-AV2-FP.git
     cd nome-do-repositorio
     ```
 
