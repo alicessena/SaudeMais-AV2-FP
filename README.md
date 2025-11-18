@@ -1,7 +1,7 @@
 # 🏥 Sistema de Agendamento de Consultas em UBS (Desafio 3)
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
-![Framework](https://img.shields.io/badge/Framework-Django-0C4B33?logo=django)
+![Backend](https://img.shields.io/badge/Framework-Firebase-0C4B33?logo=firebase)
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?logo=python)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
