@@ -40,7 +40,7 @@ def solicitar_remedio():
     estoque.append(novo_med) 
     proximo_id += 1
     
-    print(f"✅ Remédio '{nome}' (ID {novo_med['id']}) adicionado com sucesso.")
+    print(f" Remédio '{nome}' (ID {novo_med['id']}) adicionado com sucesso.")
 
 def consultar_estoque():
     """READ: Lista todos os medicamentos no estoque."""
@@ -82,12 +82,12 @@ def registrar_retirada():
             
             if retirada <= med['quantidade']:
                 med['quantidade'] -= retirada # Atualiza a quantidade
-                print(f"✅ Retirada de {retirada} unidades de '{med['nome']}' registrada. Novo estoque: {med['quantidade']}")
+                print(f" Retirada de {retirada} unidades de '{med['nome']}' registrada. Novo estoque: {med['quantidade']}")
             else:
-                print(f"❌ Erro: Retirada de {retirada} é maior que o estoque atual de {med['quantidade']}.")
+                print(f" Erro: Retirada de {retirada} é maior que o estoque atual de {med['quantidade']}.")
             return
             
-    print(f"❌ Remédio com ID {id_busca} não encontrado.")
+    print(f" Remédio com ID {id_busca} não encontrado.")
 
 def remedio_em_falta():
     """DELETE: Remove um medicamento do estoque."""
@@ -96,14 +96,14 @@ def remedio_em_falta():
     try:
         id_busca = int(input("ID do Remédio que será removido: "))
     except ValueError:
-        print("❌ ID inválido. Digite um número inteiro.")
+        print(" ID inválido. Digite um número inteiro.")
         return
 
     for i, med in enumerate(estoque):
         if med['id'] == id_busca:
             nome_removido = med['nome']
             del estoque[i] 
-            print(f"🗑️ Remédio '{nome_removido}' (ID {id_busca}) removido do estoque.")
+            print(f" Remédio '{nome_removido}' (ID {id_busca}) removido do estoque.")
             return
 
     print(f"❌ Remédio com ID {id_busca} não encontrado.")
