@@ -12,7 +12,7 @@ def carregar_mock():
     if estoque:
         proximo_id = estoque[-1]['id'] + 1
     
-    print(f"✔️ {len(estoque)} medicamentos carregados do mock com sucesso!")
+    print(f" {len(estoque)} medicamentos carregados do mock com sucesso!")
 
 def solicitar_remedio():
     """CREATE: Adiciona um novo medicamento ao estoque."""
@@ -63,7 +63,7 @@ def registrar_retirada():
     try:
         id_busca = int(input("ID do Remédio para retirada: "))
     except ValueError:
-        print("❌ ID inválido. Digite um número inteiro.")
+        print(" ID inválido. Digite um número inteiro.")
         return
 
     for med in estoque:
@@ -106,7 +106,7 @@ def remedio_em_falta():
             print(f" Remédio '{nome_removido}' (ID {id_busca}) removido do estoque.")
             return
 
-    print(f"❌ Remédio com ID {id_busca} não encontrado.")
+    print(f" Remédio com ID {id_busca} não encontrado.")
 
 
 def menu():
