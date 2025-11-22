@@ -1,31 +1,25 @@
+# utils.py
 import json
 import os
 
-ARQUIVO_DB = "banco_dados.json"
-
-def carregar_banco():
-    """Lê o arquivo JSON e retorna os dados. Se não existir, cria vazio."""
-    if not os.path.exists(ARQUIVO_DB):
-        dados_iniciais = {
-            "pacientes": [],
-            "profissionais": [],
-            "consultas": [],
-            "exames": [],
-            "farmacia": []
-        }
-        salvar_banco(dados_iniciais)
-        return dados_iniciais
+def carregar_arquivo(nome_arquivo):
+    """
+    Lê um arquivo JSON específico e retorna a lista dentro dele.
+    Se o arquivo não existir, retorna uma lista vazia.
+    """
+    if not os.path.exists(nome_arquivo):
+        return []
     
     try:
-        with open(ARQUIVO_DB, 'r', encoding='utf-8') as f:
+        with open(nome_arquivo, 'r', encoding='utf-8') as f:
             return json.load(f)
     except json.JSONDecodeError:
-        print("Erro ao ler o banco de dados. Arquivo corrompido.")
-        return {}
+        print(f"Erro: O arquivo {nome_arquivo} está corrompido.")
+        return []
 
-def salvar_banco(dados):
-    """Escreve o dicionário de dados no arquivo JSON."""
-    with open(ARQUIVO_DB, 'w', encoding='utf-8') as f:
+def salvar_arquivo(nome_arquivo, dados):
+    """Salva uma lista de dados em um arquivo JSON específico."""
+    with open(nome_arquivo, 'w', encoding='utf-8') as f:
         json.dump(dados, f, indent=4, ensure_ascii=False)
 
 def buscar_por_id(lista, id_busca):
