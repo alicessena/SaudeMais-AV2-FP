@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "paciente": "João da Silva",
+        "tipo": "Hemograma Completo",
+        "resultado": "Pendente",
+        "status": "Solicitado"
+    },
+    {
+        "id": 2,
+        "paciente": "Maria Oliveira",
+        "tipo": "Raio-X Tórax",
+        "resultado": "Sem alterações visíveis",
+        "status": "Concluido"
+    },
+    {
+        "id": 3,
+        "paciente": "João da Silva",
+        "tipo": "Glicemia",
+        "resultado": "98 mg/dL",
+        "status": "Concluido"
+    }
+]

@@ -1,3 +1,4 @@
+
 # utils.py
 import json
 import os
@@ -9,7 +10,7 @@ def carregar_arquivo(nome_arquivo):
     """
     if not os.path.exists(nome_arquivo):
         return []
-    
+
     try:
         with open(nome_arquivo, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -40,6 +41,7 @@ def buscar_por_crm(lista, crm_busca):
 def gerar_novo_id(lista):
     if not lista:
         return 1
+    return max(item['id'] for item in lista) + 1
     return max(item['id'] for item in lista) + 1
 
 def limpar_tela():
