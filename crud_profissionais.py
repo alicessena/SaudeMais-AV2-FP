@@ -1,4 +1,4 @@
-from utils import gerar_novo_id, buscar_por_crm
+from utils import gerar_novo_id, buscar_por_crm, limpar_tela
 
 def menu_profissionais(lista_profissionais):
     while True:
@@ -45,4 +45,5 @@ def menu_profissionais(lista_profissionais):
                 print("Removido.")
         
         elif opcao == '0':
+            limpar_tela()
             break

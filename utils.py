@@ -41,3 +41,6 @@ def gerar_novo_id(lista):
     if not lista:
         return 1
     return max(item['id'] for item in lista) + 1
+
+def limpar_tela():
+    os.system('cls' if os.name == 'nt' else 'clear')
