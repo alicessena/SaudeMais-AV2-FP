@@ -28,6 +28,15 @@ def buscar_por_id(lista, id_busca):
             return item
     return None
 
+def buscar_por_crm(lista, crm_busca):
+    for profissional in lista:
+        partesCrm = profissional["crm"].strip().split() #tira espaços e quebra o CRM em 2
+        if len(partesCrm) == 2: #se CRM for na estrutura [CRM-SP, 234123] 
+            regiaoCrm, numero = partesCrm #regiao vira CRM-SP e numero vira 234123
+            if numero == crm_busca:
+                return profissional
+    return None
+
 def gerar_novo_id(lista):
     if not lista:
         return 1
