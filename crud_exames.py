@@ -30,9 +30,9 @@ def menu_exames(lista_exames, lista_pacientes):
                     'status': 'Solicitado'
                 }
                 lista_exames.append(exame)
-                print(f"✅ Exame de {tipo} para {paciente['nome']} solicitado com ID: {novo_id}.")
+                print(f"Exame de {tipo} para {paciente['nome']} solicitado com ID: {novo_id}.")
             else:
-                print("❌ Paciente não encontrado.")
+                print("Paciente não encontrado.")
         
         elif opcao == '2':
             print("\n--- LISTA DE EXAMES ---")
@@ -52,12 +52,12 @@ def menu_exames(lista_exames, lista_pacientes):
             e = buscar_por_id(lista_exames, e_id)
             if e:
                 if e['status'] == 'Concluido':
-                     print("⚠️ Aviso: Este exame já está concluído. Você está sobrescrevendo o resultado.")
+                     print("Aviso: Este exame já está concluído. Você está sobrescrevendo o resultado.")
                 e['resultado'] = input(f"Novo Resultado para ID {e_id} ({e['tipo']}): ")
                 e['status'] = 'Concluido'
-                print("✅ Resultado salvo e status atualizado para 'Concluido'.")
+                print("Resultado salvo e status atualizado para 'Concluido'.")
             else:
-                print("❌ Exame não encontrado.")
+                print("Exame não encontrado.")
 
         elif opcao == '4':
             try:
@@ -69,9 +69,9 @@ def menu_exames(lista_exames, lista_pacientes):
             e = buscar_por_id(lista_exames, e_id)
             if e:
                 lista_exames.remove(e)
-                print(f"✅ Exame {e_id} ({e['tipo']}) cancelado e removido.")
+                print(f"Exame {e_id} ({e['tipo']}) cancelado e removido.")
             else:
-                print("❌ Exame não encontrado.")
+                print("Exame não encontrado.")
 
         elif opcao == '0':
             break
