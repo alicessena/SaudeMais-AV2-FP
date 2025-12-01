@@ -38,6 +38,14 @@ def buscar_por_crm(lista, crm_busca):
                 return profissional
     return None
 
+def ler_numero_valido(mensagem):
+    while True:
+        entrada = input(mensagem) # Pede o dado usando a mensagem 
+        if entrada.isdigit():
+            return int(entrada)   # Converte e retorna o número pronto para uso
+        else:
+            print("Erro: Digite apenas números inteiros. Tente novamente.")
+
 def gerar_novo_id(lista):
     if not lista:
         return 1
