@@ -7,6 +7,7 @@ def menu_pacientes(lista_pacientes):
         print("2. Listar Pacientes")
         print("3. Atualizar Paciente")
         print("4. Excluir Paciente")
+        print("5. Buscar Paciente")
         print("0. Voltar")
         opcao = input("Escolha: ")
 
@@ -41,6 +42,14 @@ def menu_pacientes(lista_pacientes):
             if p:
                 lista_pacientes.remove(p)
                 print("Paciente removido.")
+            else:
+                print("Paciente não encontrado.")
+        
+        elif opcao == '5':
+            id_p = int (input("ID do paciente para buscar: "))
+            p = buscar_por_id(lista_pacientes, id_p)
+            if p:
+                print(f"ID: {p['id']} | Nome: {p['nome']} | CPF: {p['cpf']} | Nascimento: {p['nasc']}")
             else:
                 print("Paciente não encontrado.")
 
