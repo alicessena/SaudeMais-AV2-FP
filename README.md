@@ -32,11 +32,11 @@ A iniciativa está alinhada diretamente ao **Objetivo de Desenvolvimento Sustent
 
 Este projeto está sendo desenvolvido pelos seguintes integrantes:
 
-* Alice Maria Sena Pereira (**Leader**)
+* Alice Maria Sena Pereira
 * Aquiles Pereira dos Santos
 * Eloi de Lima Sousa
 * Leticia Gomes da Silva
-* Lucas Filipe de Lima Segundo 
+* Lucas Filipe de Lima Segundo
 * Luan Ventura Ferreira de Moura
 
 ---
