@@ -1,7 +1,7 @@
 import firebase_admin
 from firebase_admin import credentials, db
 
-cred = credentials.Certificate("ods-3---fp-firebase-adminsdk-fbsvc-0e31f56488.json")
+cred = credentials.Certificate("ods-3---fp-firebase-adminsdk-fbsvc-692cba178f.json")
 firebase_admin.initialize_app(cred, {
     "databaseURL": "https://ods-3---fp-default-rtdb.firebaseio.com/"
 })
@@ -12,3 +12,4 @@ profissionais_ref = db.reference("profissionais")
 exames_ref = db.reference("exames")
 consultas_ref = db.reference("consultas")
 prontuarios_ref = db.reference("prontuarios")
+
