@@ -25,7 +25,6 @@ A iniciativa está alinhada diretamente ao **Objetivo de Desenvolvimento Sustent
 
 * **Backend:** Python
 * **Framework Web:** Firebase
-* **Frontend (Base):** React com Typescript
 
 ---
 
@@ -38,7 +37,7 @@ Este projeto está sendo desenvolvido pelos seguintes integrantes:
 * Eloi de Lima Sousa
 * Leticia Gomes da Silva
 * Lucas Filipe de Lima Segundo 
-* Luan Ventura Ferreira de Moura (**Tech Leader**)
+* Luan Ventura Ferreira de Moura
 
 ---
 
