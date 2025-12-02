@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/Status-%20Concluído-blue)
 ![Backend](https://img.shields.io/badge/Framework-Firebase-0C4B33?logo=firebase)
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?logo=python)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 
 Este projeto é um sistema para gerenciamento e agendamento de consultas em uma Unidade Básica de Saúde (UBS), desenvolvido para a disciplina de **Fundamentos da Programação**.
 
