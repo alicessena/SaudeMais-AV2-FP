@@ -1,0 +1,22 @@
+[
+    {
+        "crm": "12345-PE",
+        "nome": "Dr. Roberto Santos",
+        "especialidade": "Cardiologia"
+    },
+    {
+        "crm": "67890-PE",
+        "nome": "Dra. Ana Lima",
+        "especialidade": "Dermatologia"
+    },
+    {
+        "crm": "11223-PE",
+        "nome": "Dr. Fernando Costa",
+        "especialidade": "Clínico Geral"
+    },
+    {
+        "nome": "Dr. Icaro",
+        "especialidade": "Ratos",
+        "crm": "12345678901"
+    }
+]

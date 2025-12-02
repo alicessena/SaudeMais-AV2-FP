@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1701234567890",
+        "paciente": {
+            "nome": "João da Silva",
+            "cpf": "111.222.333-44"
+        },
+        "profissional": {
+            "nome": "Dr. Roberto Santos",
+            "crm": "12345-PE"
+        },
+        "data": "10/12/2025",
+        "hora": "09:00",
+        "status": "Agendada"
+    },
+    {
+        "id": "1701234567891",
+        "paciente": {
+            "nome": "Maria Oliveira",
+            "cpf": "555.666.777-88"
+        },
+        "profissional": {
+            "nome": "Dra. Ana Lima",
+            "crm": "67890-PE"
+        },
+        "data": "11/12/2025",
+        "hora": "14:30",
+        "status": "Concluída"
+    }
+]

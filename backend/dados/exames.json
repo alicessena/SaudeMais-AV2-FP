@@ -1,0 +1,24 @@
+[
+    {
+        "id": "1709876543210",
+        "paciente": {
+            "nome": "João da Silva",
+            "cpf": "111.222.333-44"
+        },
+        "tipo": "Hemograma Completo",
+        "resultado": "Pendente",
+        "status": "Solicitado",
+        "dataSolicitacao": "01/12/2025 10:00:00"
+    },
+    {
+        "id": "1709876543211",
+        "paciente": {
+            "nome": "Carlos Pereira",
+            "cpf": "999.888.777-66"
+        },
+        "tipo": "Raio-X Tórax",
+        "resultado": "Normal",
+        "status": "Concluído",
+        "dataSolicitacao": "30/11/2025 15:20:00"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1705555555555",
+        "paciente": {
+            "nome": "Maria Oliveira",
+            "cpf": "555.666.777-88"
+        },
+        "profissional": {
+            "nome": "Dra. Ana Lima",
+            "crm": "67890-PE"
+        },
+        "queixa": "Manchas na pele",
+        "diagnostico": "Dermatite de contato",
+        "prescricao": "Pomada Corticoide 2x ao dia",
+        "data": "11/12/2025 15:00:00"
+    }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Painel — Hospital São Lúcio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Navegação painel">
+      <a class="logo" href="index.html">Hospital <strong>São Lúcio</strong></a>
+      <ul class="nav-links">
+        <li><button id="logoutBtn" class="btn">Sair</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Painel administrativo</h1>
+    <p id="dbInfo" class="muted"></p>
+
+    <section aria-labelledby="modules">
+      <h2 id="modules">Módulos (clique para abrir)</h2>
+      <div class="card-row">
+        <div class="card module" data-module="pacientes">Pacientes</div>
+        <div class="card module" data-module="profissionais">Profissionais</div>
+        <div class="card module" data-module="medicamentos">Medicamentos</div>
+        <div class="card module" data-module="exames">Exames</div>
+        <div class="card module" data-module="consultas">Consultas</div>
+        <div class="card module" data-module="prontuarios">Prontuários</div>
+      </div>
+    </section>
+
+    <section id="module-area" class="module-area" aria-live="polite">
+      <p class="muted">Abra um módulo para gerenciar registros (criar / listar / editar / remover).</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 Hospital São Lúcio</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/firebase-config.example.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
