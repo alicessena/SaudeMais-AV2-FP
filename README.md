@@ -4,7 +4,6 @@
 ![Backend](https://img.shields.io/badge/Framework-Firebase-0C4B33?logo=firebase)
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?logo=python)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 
 Este projeto é um sistema para gerenciamento e agendamento de consultas em uma Unidade Básica de Saúde (UBS), desenvolvido para a disciplina de **Fundamentos da Programação**.
 
@@ -17,9 +16,10 @@ A iniciativa está alinhada diretamente ao **Objetivo de Desenvolvimento Sustent
 ---
 ## ✨ Funcionalidades Essenciais
 
-Cadastro, consulta, atualização e exclusão de dados
-Integração com banco de dados em nuvem
-
+* **Cadastro, consulta, atualização e exclusão de dados**
+* **Integração com banco de dados em nuvem**
+  
+---
 
 ## 💻 Tecnologias Utilizadas
 
